@@ -6,6 +6,7 @@ export default {
     build: {
       minify: false,  // Disable minification if not necessary
       cssCodeSplit: true,  // Split CSS to prevent large chunks
+      sourcemap: false,
       rollupOptions: {
         output: {
           manualChunks(id) {
