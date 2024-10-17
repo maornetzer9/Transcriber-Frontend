@@ -1,0 +1,9 @@
+.summary_container {
+    max-width: 100%;         
+    word-wrap: break-word;    
+    overflow-wrap: break-word;
+    overflow: hidden;         
+    white-space: pre-wrap;    
+    padding: 10px;           
+  }
+  
